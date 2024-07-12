@@ -1,0 +1,18 @@
+Hello, let’s collect some information to expedite your call. Are you the patient? 
+Yes. I am the patient.
+Great, could you please provide me with your date of birth? 
+September 9, 1965.
+Could you please provide the first three letters of your last name? 
+S t e.
+Got it. Are you a biological male or female? 
+I am a male.
+What state are you in right now? 
+Florida.
+Perfect. In a few words, please tell me your main symptom or reason for the call today.
+Testicle enlargements.
+Hello, let’s collect some information to expedite your call. Are you the patient? 
+Great, could you please provide me with your date of birth? 
+Could you please provide the first three letters of your last name? 
+Got it. Are you a biological male or female? 
+What state are you in right now? 
+Perfect. In a few words, please tell me your main symptom or reason for the call today.
