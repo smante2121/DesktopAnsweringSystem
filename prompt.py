@@ -32,6 +32,6 @@ questioned = [
     }
 ]
 
-questions= ["Hello, let’s collect some information to expedite your call. What is your callback number?", "Are you the patient?", "Great, could you please provide me with your date of birth?", "Got it. Are you a biological male or female?", "What state are you in right now? ", "Perfect. In a few words, please tell me your main symptom or reason for the call today."]
+questions= ["Hello, let’s collect some information to expedite your call. What is your callback number?", "Are you the patient?", "Could you please provide your date of birth in the form of month name day year?", "Got it. Are you a biological male or female?", "What state are you in right now? ", "Perfect. In a few words, please tell me your main symptom or reason for the call today."]
 
 # questions= ["Hello, let’s collect some information to expedite your call. Are you the patient? ", "Great, could you please provide me with your date of birth? ", "Could you please provide the first three letters of your last name? ", "Got it. Are you a biological male or female? ", "What state are you in right now? ", "Perfect. In a few words, please tell me your main symptom or reason for the call today."]

@@ -68,8 +68,8 @@ async def speech_to_text():  # method to convert speech to text
         async def on_utterance_end(self, utterance_end, **kwargs):  # method to handle utterance end
             logging.info(f"Utterance End")
             utterance = " ".join(is_finals)
-            with open(TEXT_FILE, "a") as final_text_file:
-                final_text_file.write(utterance + "\n")
+            # with open(TEXT_FILE, "a") as final_text_file:
+               # final_text_file.write(utterance + "\n")
             await shutdown(SIGINT, loop, dg_connection, stream)
 
         async def on_close(self, close, **kwargs):  # method to handle connection close
@@ -105,7 +105,7 @@ async def speech_to_text():  # method to convert speech to text
         )
 
         addons = {
-            "no_delay": "true"
+            #"no_delay": "true"
         }
 
         logging.info("\n\nStart talking! Press Ctrl+C to stop...\n")
@@ -132,6 +132,8 @@ async def speech_to_text():  # method to convert speech to text
         return
 
 async def shutdown(signal, loop, dg_connection, stream):  # method to shutdown the service
+    with open(TEXT_FILE, "a") as final_text_file:
+        final_text_file.write(" ".join(is_finals) + "\n")
     logging.info(f"Received exit signal {signal.name}...")
     stream.stop()
     stream.close()
