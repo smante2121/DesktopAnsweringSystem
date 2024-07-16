@@ -1,19 +1,4 @@
-Hello, let’s collect some information to expedite your call. What is your callback number?
-Hello. Let's collect some information to expedite your call. What is your callback number? My callback number is 904
-Hello. Let's collect some information to expedite your call. What is your callback number? My callback number is 904 772-5804.
-Are you the patient?
-You the patient? Yes.
-Could you please provide your date of birth in the form of month name day year?
-Could you please provide your date of birth and the formal month and day year? My birthday is June 21, 2003.
-Got it. Are you a biological male or female?
-Got it. Are you a biological male or female? Female.
-What state are you in right now? 
-What state are you in right now? Florida.
-Perfect. In a few words, please tell me your main symptom or reason for the call today.
-Perfect. In a few words, please tell me your main something or reason for the call. My tummy hurts.
-Hello, let’s collect some information to expedite your call. What is your callback number?
-Are you the patient?
-Could you please provide your date of birth in the form of month name day year?
-Got it. Are you a biological male or female?
-What state are you in right now? 
-Perfect. In a few words, please tell me your main symptom or reason for the call today.
+Hello, let’s collect some information to expedite your call.
+What is your callback number?
+
+Sorry, I didn't catch that, please repeat your answer.

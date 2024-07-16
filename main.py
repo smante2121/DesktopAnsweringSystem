@@ -1,4 +1,4 @@
-from prompt import questions
+from prompt import questions, mistakes
 from TTS import text_to_speech
 from STT import speech_to_text
 from config import TEXT_FILE
@@ -35,6 +35,7 @@ async def main(): # main method to run the question-response sequence
     goodInfo=open("goodInfo.txt", "w")
     goodInfo.close()
     goodInfo=open("goodInfo.txt", "a")
+    text_to_speech("Hello, let’s collect some information to expedite your call.")
 
     for idx, question in enumerate(questions): # Loop through each question
 
