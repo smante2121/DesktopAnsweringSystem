@@ -1,4 +1,7 @@
-Hello, let’s collect some information to expedite your call.
-What is your callback number?
-
-Sorry, I didn't catch that, please repeat your answer.
+What is your callback number? My callback number is 904 772-5804.
+You said your callback number is 904 772-5804. Is that correct? Yes.
+Are you the patient? Yes.
+Could you please provide your date of birth? Yes. My birthday is June 21, 2003.
+Got it. Are you a biological male or female? Female.
+What state are you in right now? Florida.
+Perfect. In a few words, please tell me your main symptom or reason for the call today. I'm calling because my stomach hurts.

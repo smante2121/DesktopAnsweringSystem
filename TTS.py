@@ -8,8 +8,7 @@ from config import API_KEY, TEXT_FILE
 
 
 def text_to_speech(text): # method to convert text to speech
-    with open(TEXT_FILE, "a") as file:
-        file.write(text + "\n")
+
 
     url = "https://api.deepgram.com/v1/speak?model=aura-arcas-en" # Deepgram API URL
 
@@ -36,7 +35,7 @@ def text_to_speech(text): # method to convert text to speech
 
         print(text)
         print("Audio played successfully.")
-        file.close()
+
     else:
         print(f"Error: {response.status_code} - {response.text}")
 
